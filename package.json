@@ -2,7 +2,7 @@
   "name": "filmoteka-team-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://VladaBoiko.github.io/filmoteca",
+  "homepage": "https://github.com/lavrinenkokyiv/filmoteca.git",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /filmoteca/"
@@ -24,13 +24,13 @@
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
     "modern-normalize": "^1.1.0",
-    "sweet-scroll": "^4.0.0",
-    "notiflix": "^3.2.5"
+    "notiflix": "^3.2.5",
+    "sweet-scroll": "^4.0.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-sass": "^2.7.0",
     "buffer": "^6.0.3",
-    "parcel": "^2.6.0",
+    "parcel": "^2.7.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4",
     "process": "^0.11.10"
