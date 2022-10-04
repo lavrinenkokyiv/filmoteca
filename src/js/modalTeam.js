@@ -21,7 +21,7 @@ for (const el of closeEls) {
 document.addEventListener("click", e => {
   if (e.target == document.querySelector(".modal.is-visible")) {
     document.querySelector(".modal.is-visible").classList.remove(isVisible);
-    
+    document.body.style.overflow = 'visible';
   }
 });
 
@@ -29,6 +29,6 @@ document.addEventListener("keyup", e => {
   // if we press the ESC
   if (e.key == "Escape" && document.querySelector(".modal.is-visible")) {
     document.querySelector(".modal.is-visible").classList.remove(isVisible);
-    
+    document.body.style.overflow = 'visible';
   }
 });
